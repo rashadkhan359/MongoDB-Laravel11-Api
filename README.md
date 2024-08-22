@@ -7,11 +7,7 @@ This project is a backend API service built using Laravel 11, MongoDB, and Redis
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Running the Project](#running-the-project)
-- [Testing](#testing)
-- [API Documentation](#api-documentation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Requirements
 
@@ -21,7 +17,6 @@ Before you begin, ensure you have met the following requirements:
 - Composer
 - MongoDB
 - Redis
-- Node.js and npm (for managing frontend dependencies if needed)
 - Laravel 11
 
 ## Installation
@@ -51,7 +46,7 @@ Before you begin, ensure you have met the following requirements:
     ```
     DB_CONNECTION=mongodb
     MONGODB_URI=your_mongodb_uri
-    DB_DATABASE=horse_training
+    DB_DATABASE=your_db_name
     ```
 
     ### Redis Configuration
